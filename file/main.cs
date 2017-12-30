@@ -20,15 +20,5 @@ Console.WriteLine("The Source code can be found right here (https://github.com/t
 
 if (input == "help") { Console.WriteLine("hello - Simple OS command"); Console.WriteLine("about - Know about OS "); }
 
-if (input == "shutdown") { Deboot.ShutDown(); }
-
-if (input == "restart") { Deboot.Reboot(); }
- 
-default: { Console.WriteLine("No such command");
-
-command = null; break; } }
-
-}
-
 
 
